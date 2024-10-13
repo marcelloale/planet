@@ -1,0 +1,5 @@
+[build]
+  cmd = "go build -buildvcs=false -o ./tmp/main ."
+
+[log]
+  time = true

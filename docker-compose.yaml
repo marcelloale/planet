@@ -4,10 +4,10 @@ services:
     env_file:
       - .env
     ports:
-      - "3000:3000"
+      - "8080:8080"
     volumes:
       - .:/app
-    command: go run ./main.go
+    command: air ./main.go
   db:
     image: postgres:alpine
     ports:
